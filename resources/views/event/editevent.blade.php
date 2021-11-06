@@ -1,4 +1,4 @@
-@section('title', 'Edit-Event')
+@section('title', 'Edit Event')
 <!doctype html>
 <html class="no-js" lang="en">
 

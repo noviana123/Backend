@@ -1,4 +1,4 @@
-@section('title', 'Edit-Pasien')
+@section('title', 'Edit Pasien')
 <!doctype html>
 <html class="no-js" lang="en">
 

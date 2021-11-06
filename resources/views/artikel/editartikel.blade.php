@@ -1,11 +1,11 @@
-@section('title', 'Edit Doctor')
+@section('title', 'Edit Artikel Assets')
 <!doctype html>
 <html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Edit Doctor | VISS - protect yourself</title>
+    <title>Edit Artikel Assets | VISS - protect yourself</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -37,6 +37,9 @@
     <!-- main CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/main.css">
+    <!-- dropzone CSS
+		============================================ -->
+    <link rel="stylesheet" href="../css/dropzone/dropzone.css">
     <!-- educate icon CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/educate-custon-icon.css">
@@ -57,9 +60,6 @@
     <!-- forms CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/form/all-type-forms.css">
-    <!-- dropzone CSS
-		============================================ -->
-    <link rel="stylesheet" href="../css/dropzone/dropzone.css">
     <!-- style CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/style.css">
@@ -77,7 +77,7 @@
 	<![endif]-->
     <!-- Start Left menu area -->
     <!--Sidebar-->
-     @include('leftmenu')
+    @include('leftmenu')
     <!-- End Left menu area -->
     <!-- Start Welcome area -->
     <div class="all-content-wrapper">
@@ -85,16 +85,14 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                      <br>
-                      <br>
+                    <br>
+                    <br>
                     </div>
                 </div>
             </div>
         </div>
-      
-         <!--header-->
-         @include('header')
-
+        <!--header-->
+        @include('header')
         <!-- Single pro tab review Start-->
         <div class="single-pro-review-area mt-t-30 mg-b-15">
             <div class="container-fluid">
@@ -102,33 +100,24 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="product-payment-inner-st">
                             <ul id="myTabedu1" class="tab-review-design">
-                                <li class="active"><a href="#description">Edit Basic Information</a></li>
-                                <li><a href="#reviews"> Edit Acount Information</a></li>
-                                <li><a href="#INFORMATION">Edit Social Information</a></li>
+                                <li class="active"><a href="#description">Library Details</a></li>
+                                <li><a href="#reviews"> Account Information</a></li>
+                                <li><a href="#INFORMATION">Social Information</a></li>
                             </ul>
                             <div id="myTabContent" class="tab-content custom-product-edit">
                                 <div class="product-tab-list tab-pane fade active in" id="description">
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="review-content-section">
-                                                <div id="dropzone1" class="pro-ad">
-                                                    <form action="#" class="dropzone dropzone-custom needsclick add-professors" id="demo1-upload">
+                                                <div id="dropzone1" class="pro-ad addcoursepro">
+                                                    <form action="#" class="dropzone dropzone-custom needsclick addlibrary" id="demo1-upload">
                                                         <div class="row">
                                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group">
-                                                                    <input name="number" type="text" class="form-control" placeholder="Fly Zend" value="Fly Zend">
+                                                                    <input name="nameasset" type="text" class="form-control" placeholder="Name of Asset" value="Web Development">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="E104, catn-2, UK." value="E104, catn-2, UK.">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="12/10/1993" value="12/10/1993">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input type="number" class="form-control" placeholder="1213" value="1213">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input type="number" class="form-control" placeholder="01962067309" value="01962067309">
+                                                                    <input name="subject" type="text" class="form-control" placeholder="Subject" value="Html Website">
                                                                 </div>
                                                                 <div class="form-group alert-up-pd">
                                                                     <div class="dz-message needsclick download-custom">
@@ -142,58 +131,25 @@
                                                             </div>
                                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="CSE" value="CSE">
+                                                                    <input name="department" type="text" class="form-control" placeholder="Department" value="CSE">
                                                                 </div>
-                                                                <div class="form-group edit-ta-resize res-mg-t-15">
-                                                                    <textarea name="description">Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.</textarea>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <select class="form-control">
-																		<option>Male</option>
-																		<option>Male</option>
-																		<option>Female</option>
-																	</select>
+                                                                <div class="form-group res-mg-t-15">
+                                                                    <input name="type" type="text" class="form-control" placeholder="Type" value="Book">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <select class="form-control">
-																			<option>Nepal</option>
-																			<option>India</option>
-																			<option>Pakistan</option>
-																			<option>Amerika</option>
-																			<option>China</option>
-																			<option>Dubai</option>
-																			<option>Nepal</option>
-																		</select>
+                                                                    <input name="price" type="text" class="form-control" placeholder="Price" value="$1500">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <select class="form-control">
-																			<option>Maharastra</option>
-																			<option>Gujarat</option>
-																			<option>Maharastra</option>
-																			<option>Rajastan</option>
-																			<option>Maharastra</option>
-																			<option>Rajastan</option>
-																			<option>Gujarat</option>
-																		</select>
+                                                                    <input name="year" type="text" class="form-control" placeholder="Year" value="1 Year">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <select class="form-control">
-																			<option>Baroda</option>
-																			<option>Surat</option>
-																			<option>Baroda</option>
-																			<option>Navsari</option>
-																			<option>Baroda</option>
-																			<option>Surat</option>
-																		</select>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="www.uttara.com" value="www.uttara.com">
+                                                                    <input name="status" type="text" class="form-control" placeholder="Status" value="active">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-lg-12">
-                                                                <div class="payment-adress">
+                                                                <div class="payment-adress mg-t-15 responsive-mg-t-0">
                                                                     <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
                                                                 </div>
                                                             </div>
@@ -212,16 +168,16 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="devit-card-custom">
                                                             <div class="form-group">
-                                                                <input type="text" class="form-control" placeholder="Email" value="Admin@gmail.com">
+                                                                <input type="text" class="form-control" placeholder="Email">
                                                             </div>
                                                             <div class="form-group">
-                                                                <input type="number" class="form-control" placeholder="Phone" value="01962067309">
+                                                                <input type="number" class="form-control" placeholder="Phone">
                                                             </div>
                                                             <div class="form-group">
-                                                                <input type="password" class="form-control" placeholder="Password" value="#123#123">
+                                                                <input type="password" class="form-control" placeholder="Password">
                                                             </div>
                                                             <div class="form-group">
-                                                                <input type="password" class="form-control" placeholder="Confirm Password" value="#123#123">
+                                                                <input type="password" class="form-control" placeholder="Confirm Password">
                                                             </div>
                                                             <a href="#!" class="btn btn-primary waves-effect waves-light">Submit</a>
                                                         </div>
@@ -236,19 +192,19 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="review-content-section">
 												<div class="row">
-													<div class="col-lg-12">
+													<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 														<div class="devit-card-custom">
 															<div class="form-group">
-																<input type="url" class="form-control" placeholder="Facebook URL" value="http://www.facebook.com">
+																<input type="url" class="form-control" placeholder="Facebook URL">
 															</div>
 															<div class="form-group">
-																<input type="url" class="form-control" placeholder="Twitter URL" value="http://www.twitter.com">
+																<input type="url" class="form-control" placeholder="Twitter URL">
 															</div>
 															<div class="form-group">
-																<input type="url" class="form-control" placeholder="Google Plus" value="http://www.google-plus.com">
+																<input type="url" class="form-control" placeholder="Google Plus">
 															</div>
 															<div class="form-group">
-																<input type="url" class="form-control" placeholder="Linkedin URL" value="http://www.Linkedin.com">
+																<input type="url" class="form-control" placeholder="Linkedin URL">
 															</div>
 															<button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
 														</div>
@@ -264,10 +220,8 @@
                 </div>
             </div>
         </div>
-    
-         <!--footer-->
-         @include('footer')
-         
+        <!--footer-->
+        @include('footer')
     </div>
 
     <!-- jquery
@@ -311,19 +265,6 @@
     <script src="../js/calendar/moment.min.js"></script>
     <script src="../js/calendar/fullcalendar.min.js"></script>
     <script src="../js/calendar/fullcalendar-active.js"></script>
-    <!-- maskedinput JS
-		============================================ -->
-    <script src="../js/jquery.maskedinput.min.js"></script>
-    <script src="../js/masking-active.js"></script>
-    <!-- datepicker JS
-		============================================ -->
-    <script src="../js/datepicker/jquery-ui.min.js"></script>
-    <script src="../js/datepicker/datepicker-active.js"></script>
-    <!-- form validate JS
-		============================================ -->
-    <script src="../js/form-validation/jquery.form.min.js"></script>
-    <script src="../js/form-validation/jquery.validate.min.js"></script>
-    <script src="../js/form-validation/form-active.js"></script>
     <!-- dropzone JS
 		============================================ -->
     <script src="../js/dropzone/dropzone.js"></script>

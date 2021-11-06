@@ -60,3 +60,15 @@ Route::get('/all-courses.html', function () {
 Route::get('/edit-course.html', function () {
     return view('event.editevent');
 });
+
+Route::get('/library-assets.html', function () {
+    return view('artikel.artikelassets');
+});
+
+Route::get('/add-library-assets.html', function () {
+    return view('artikel.addartikel');
+});
+
+Route::get('/edit-library-assets.html', function () {
+    return view('artikel.editartikel');
+});

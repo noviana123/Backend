@@ -42,15 +42,14 @@
                                 <li><a title="All Courses" href="all-courses.html"><span class="mini-sub-pro">All Event</span></a></li>
                                 <li><a title="Add Courses" href="add-course.html"><span class="mini-sub-pro">Add Event</span></a></li>
                                 <li><a title="Edit Courses" href="edit-course.html"><span class="mini-sub-pro">Edit Event</span></a></li>
-                                <li><a title="Courses Profile" href="course-info.html"><span class="mini-sub-pro">Event Info</span></a></li>
                             </ul>
                         </li>
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Article</span></a>
+                            <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Artikel</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Article Assets</span></a></li>
-                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Article Asset</span></a></li>
-                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Article Asset</span></a></li>
+                                <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Artikel Assets</span></a></li>
+                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Artikel Asset</span></a></li>
+                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Artikel Asset</span></a></li>
                             </ul>
                         </li>
                         <li>
