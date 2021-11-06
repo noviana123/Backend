@@ -72,3 +72,11 @@ Route::get('/add-library-assets.html', function () {
 Route::get('/edit-library-assets.html', function () {
     return view('artikel.editartikel');
 });
+
+Route::get('/login.html', function () {
+    return view('page.login');
+});
+
+Route::get('/register.html', function () {
+    return view('page.register');
+});
