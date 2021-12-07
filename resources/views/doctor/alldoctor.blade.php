@@ -101,8 +101,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/1.jpg">
-                                <h3><a href="">John Alva</a></h3>
-                                <p class="all-pro-ad">London, LA</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -131,8 +131,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/2.jpg">
-                                <h3><a href="">Amir dex</a></h3>
-                                <p class="all-pro-ad">Pakistan, Los</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -161,8 +161,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/3.jpg">
-                                <h3><a href="">Alva Adition</a></h3>
-                                <p class="all-pro-ad">India, Col</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -191,8 +191,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/4.jpg">
-                                <h3><a href="">Sex Dog</a></h3>
-                                <p class="all-pro-ad">Uk, LA</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -223,8 +223,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/1.jpg">
-                                <h3><a href="">Fox Well</a></h3>
-                                <p class="all-pro-ad">California, LA</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -253,8 +253,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/3.jpg">
-                                <h3><a href="">Drom Simson</a></h3>
-                                <p class="all-pro-ad">Austrolia, LA</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>
@@ -313,8 +313,8 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <img alt="logo" class="img-circle m-b" src="img/contact/4.jpg">
-                                <h3><a href="">Drama Son</a></h3>
-                                <p class="all-pro-ad">USA, LA</p>
+                                <h3><a href="">Nama Dokter</a></h3>
+                                <p class="all-pro-ad">Spesialis</p>
                                 <p>
                                     Lorem ipsum dolor sit amet of, consectetur adipiscing elitable. Vestibulum tincidunt est vitae ultrices accumsan.
                                 </p>

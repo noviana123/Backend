@@ -94,7 +94,7 @@
                         <div class="courses-inner res-mg-b-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/1.jpg" alt=""></a>
-                                <h2>Apps Development</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -115,7 +115,7 @@
                         <div class="courses-inner">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/2.jpg" alt=""></a>
-                                <h2>Illustrator CC 2018</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -136,7 +136,7 @@
                         <div class="courses-inner res-mg-t-30 dk-res-t-pro-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/3.jpg" alt=""></a>
-                                <h2>Indesign cs6 2018</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -157,7 +157,7 @@
                         <div class="courses-inner res-mg-t-30 dk-res-t-pro-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/1.jpg" alt=""></a>
-                                <h2>Web Development</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -180,7 +180,7 @@
                         <div class="courses-inner mg-t-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/1.jpg" alt=""></a>
-                                <h2>Apps Development</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -201,7 +201,7 @@
                         <div class="courses-inner mg-t-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/2.jpg" alt=""></a>
-                                <h2>Illustrator CC 2018</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -222,7 +222,7 @@
                         <div class="courses-inner mg-t-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/3.jpg" alt=""></a>
-                                <h2>Indesign cs6 2018</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
@@ -243,7 +243,7 @@
                         <div class="courses-inner mg-t-30">
                             <div class="courses-title">
                                 <a href="#"><img src="img/courses/1.jpg" alt=""></a>
-                                <h2>Web Development</h2>
+                                <h2>Nama Event</h2>
                             </div>
                             <div class="courses-alaltic">
                                 <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
