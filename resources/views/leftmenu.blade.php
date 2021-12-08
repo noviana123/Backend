@@ -18,12 +18,12 @@
                             </ul>
                         </li>
                         <li>
-                            <a title="Landing Page" href="events.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Calender</span></a>
+                            <a title="Landing Page" href="calender.html" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Calender</span></a>
                         </li>
                         <li>
                             <a class="has-arrow" href="all-professors.html" aria-expanded="false"><span class="educate-icon educate-professor icon-wrap"></span> <span class="mini-click-non">Doctor</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Professors" href="all-professors.html"><span class="mini-sub-pro">All Doctor</span></a></li>
+                                <li><a title="All Professors" href="all-professor.html"><span class="mini-sub-pro">All Doctor</span></a></li>
                                 <li><a title="Add Professor" href="add-professor.html"><span class="mini-sub-pro">Add Doctor</span></a></li>
                                 <li><a title="Edit Professor" href="edit-professor.html"><span class="mini-sub-pro">Edit Doctor</span></a></li>
                             </ul>

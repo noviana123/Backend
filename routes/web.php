@@ -17,66 +17,36 @@ Route::get('/', [Homecontroller::class, 'index']);
    
 Route::get('/index.html', [Homecontroller::class, 'index']);
 
-Route::get('/events.html', [Homecontroller::class, 'calender']);
+Route::get('/calender.html', [Homecontroller::class, 'calender']);
 
-Route::get('/all-professors.html', [Homecontroller::class, 'doctor/alldoctor']);
+Route::get('/all-professor.html', [Homecontroller:: class, 'alldoctor']);
 
-Route::get('/add-professor.html', function () {
-    return view('doctor.adddoctor');
-});
+Route::get('/add-professor.html', [Homecontroller:: class, 'adddoctor']);
 
-Route::get('/edit-professor.html', function () {
-    return view('doctor.editdoctor');
-});
+Route::get('/edit-professor.html', [Homecontroller:: class, 'editdoctor']);
 
-Route::get('/all-students.html', function () {
-    return view('pasien.allpasien');
-});
+Route::get('/all-students.html', [Homecontroller:: class, 'allpasien']);
 
-Route::get('/add-student.html', function () {
-    return view('pasien.addpasien');
-});
+Route::get('/add-student.html', [Homecontroller:: class, 'addpasien']);
 
-Route::get('/edit-student.html', function () {
-    return view('pasien.editpasien');
-});
+Route::get('/edit-student.html', [Homecontroller:: class, 'editpasien']);
 
-Route::get('/add-course.html', function () {
-    return view('event.addevent');
-});
+Route::get('/add-course.html', [Homecontroller:: class, 'addevent']);
 
-Route::get('/all-courses.html', function () {
-    return view('event.allevent');
-});
+Route::get('/all-courses.html', [Homecontroller:: class, 'allevent']);
 
-Route::get('/edit-course.html', function () {
-    return view('event.editevent');
-});
+Route::get('/edit-course.html', [Homecontroller:: class, 'editevent']);
 
-Route::get('/library-assets.html', function () {
-    return view('artikel.artikelassets');
-});
+Route::get('/library-assets.html', [Homecontroller:: class, 'artikelassets']);
 
-Route::get('/add-library-assets.html', function () {
-    return view('artikel.addartikel');
-});
+Route::get('/add-library-assets.html', [Homecontroller:: class, 'addartikel']);
 
-Route::get('/edit-library-assets.html', function () {
-    return view('artikel.editartikel');
-});
+Route::get('/edit-library-assets.html', [Homecontroller:: class, 'editartikel']);
 
-Route::get('/login.html', function () {
-    return view('page.login');
-});
+Route::get('/login.html', [Homecontroller:: class, 'login']);
 
-Route::get('/register.html', function () {
-    return view('page.register');
-});
+Route::get('/register.html', [Homecontroller:: class, 'register']);
 
-Route::get('/static-table.html', function () {
-    return view('tabel.statictabel');
-});
+Route::get('/static-table.html', [Homecontroller:: class, 'statictabel']);
 
-Route::get('/data-table.html', function () {
-    return view('tabel.data');
-});
+Route::get('/data-table.html', [Homecontroller:: class, 'data']);
