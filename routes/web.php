@@ -19,7 +19,7 @@ Route::get('/index.html', [Homecontroller::class, 'index']);
 
 Route::get('/events.html', [Homecontroller::class, 'calender']);
 
-Route::get('/all-professors.html', [Homecontroller::class, 'doctor/alldoctor']);
+Route::get('/all-professors.html', [Homecontroller::class, 'alldoctor']);
 
 Route::get('/add-professor.html', function () {
     return view('doctor.adddoctor');

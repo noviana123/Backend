@@ -15,7 +15,7 @@ class HomeController extends Controller
         return view('calender');
     }
 
-    public function alldocter(){
-        return view('doctor/alldoctor');
+    public function alldoctor(){
+        return view('doctor.alldoctor');
     }
 }
