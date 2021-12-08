@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\Homecontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,21 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [Homecontroller::class, 'index']);
+   
+Route::get('/index.html', [Homecontroller::class, 'index']);
 
-Route::get('/index.html', function () {
-    return view('index');
-});
+Route::get('/events.html', [Homecontroller::class, 'calender']);
 
-Route::get('/events.html', function () {
-    return view('calender');
-});
-
-Route::get('/all-professors.html', function () {
-    return view('doctor.alldoctor');
-});
+Route::get('/all-professors.html', [Homecontroller::class, 'doctor/alldoctor']);
 
 Route::get('/add-professor.html', function () {
     return view('doctor.adddoctor');
@@ -79,4 +71,12 @@ Route::get('/login.html', function () {
 
 Route::get('/register.html', function () {
     return view('page.register');
+});
+
+Route::get('/static-table.html', function () {
+    return view('tabel.static');
+});
+
+Route::get('/data-table.html', function () {
+    return view('tabel.data');
 });
