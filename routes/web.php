@@ -74,7 +74,7 @@ Route::get('/register.html', function () {
 });
 
 Route::get('/static-table.html', function () {
-    return view('tabel.static');
+    return view('tabel.statictabel');
 });
 
 Route::get('/data-table.html', function () {
